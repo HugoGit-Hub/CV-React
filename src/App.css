@@ -1,38 +1,64 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  font-family: "Futura";
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #152038;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  color: #ecefee;
+}
+
+.App-block {
+  border: solid 1px #ecefee;
+  border-radius: 10px;
+  background-color: #ecefee;
+  color: black;
+  margin: 5%;
+  padding: 10%;
+  width: 90% !important;
+}
+
+.App-title {
+  text-align: center;
+}
+
+.App-profil {
+  margin: auto;
+  width: auto;
+  width: 100px !important;
+  height: 100px !important;
+}
+
+.App-download {
+  margin-top: 10% !important;
+  font-family: "Futura" !important;
+  background-color: #152038 !important;
+}
+
+.Block {
+  background-color: #152038;
   color: white;
+  border-radius: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.App-IT {
+  width: 90% !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-ico {
+  margin-right: 3%;
+}
+
+.App-ico-lang {
+  margin-left: 3%;
+}
+
+.App-copy {
+  padding: unset !important;
 }
